@@ -183,7 +183,7 @@ def func():
 # data = list(map(int, input().split()))
 
 # 3. 여러 개의 데이터를 공백을 기준으로 구분하여 적은 수의 데이터 입력
-# n, m, k = map(list(int, input().split()))
+# n, m, k = map(int, input().split())
 
 # 4. 입력의 개수가 많을 경우
 import sys
