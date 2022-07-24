@@ -65,6 +65,19 @@ graph = [
   [5, INF, 0]
 ]
 ```
+
+### 9. 그래프를 인접 리스트 방식으로 처리할 때 데이터 초기화 방식
+```python
+
+graph = [[] for _ in range(3)]
+
+graph[0].append((1, 7))
+graph[0].append((2, 5))
+
+graph[1].append((0, 7))
+graph[2].append((0, 5))
+```
+
 ---
 
 ## 2. 오답노트
