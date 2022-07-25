@@ -78,6 +78,13 @@ graph[1].append((0, 7))
 graph[2].append((0, 5))
 ```
 
+### 10. 많은 수의 값을 공백 구분없이 입력받기
+```python
+data = list(map(int, input()))
+ex)12345678
+print(data)
+# [1, 2, 3, 4, 5, 6, 7, 8]
+```
 ---
 
 ## 2. 오답노트
