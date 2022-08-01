@@ -109,6 +109,13 @@ def setting(data):
 
 # [('바나나', 2), ('당근', 3), ('사과', 5)]
 ```
+
+### 13. 대량의 입력 시간 복잡도 줄이기
+```python
+import sys
+
+input_data = sys.stdin.realine().rstrip()
+```
 ---
 
 ## 2. 오답노트
