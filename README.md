@@ -114,7 +114,7 @@ def setting(data):
 ```python
 import sys
 
-input_data = sys.stdin.realine().rstrip()
+input_data = sys.stdin.readline().rstrip()
 ```
 ---
 
