@@ -20,6 +20,7 @@ def bfs(x, y):
         for i in range(4):
             nx = x + dx[i]
             ny = y + dy[i]
+
             if nx <= -1 or nx >= n or ny <= -1 or ny >= m:
                 continue
 
