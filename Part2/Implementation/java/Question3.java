@@ -5,7 +5,7 @@ public class Question3 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String s = br.readLine().trim();
         int px = (int)s.charAt(0) - (int)'a' + 1;
-        int py = Character.getNumericValue(s.charAt(1));
+        int py = Character.getNumericValue(s.charAt(1)); // (int)s.charAt(0) - (int)'0';
 
         int[] dx = {-2, -2, -1, 1, 2, 2, -1, 1};
         int[] dy = {-1, 1, 2, 2, 1, -1, -2, -2};
