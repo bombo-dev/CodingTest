@@ -1,6 +1,7 @@
 import java.io.*;
 import java.util.*;
 
+// 계수 정렬 이용
 public class Question1b {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
