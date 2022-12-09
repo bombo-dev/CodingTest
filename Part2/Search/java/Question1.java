@@ -1,5 +1,6 @@
 import java.io.*;
 import java.util.*;
+// 이진탐색 직접 구현
 public class Question1 {
     public static String binarySearch(int[] array, int target, int start, int end){
         if(start > end){
