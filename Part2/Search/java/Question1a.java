@@ -1,6 +1,7 @@
 import java.io.*;
 import java.util.*;
 
+// 이진 탐색 라이브러리 이용
 public class Question1a {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
