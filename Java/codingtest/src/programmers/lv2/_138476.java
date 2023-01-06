@@ -5,7 +5,7 @@ public class _138476 {
 
     public static void main(String[] args){
         int[] tangerine = {1, 3, 2, 5, 4, 5, 2 ,3};
-        System.out.println(solution(6, tangerine));
+        System.out.println(solution3(6, tangerine));
     }
 
     public static int solution(int k, int[] tangerine) {
@@ -60,6 +60,29 @@ public class _138476 {
             if(k<=0){
                 break;
             }
+        }
+
+        return answer;
+    }
+
+    public static int solution3(int k, int[] tangerine){
+        int answer = 0;
+        SortedMap<Integer, Integer> map = new TreeMap<>((o1, o2) -> o2 - o1);
+
+        for (int t : tangerine){
+            map.put(t, map.getOrDefault(t, 0) + 1);
+        }
+
+        map.keySet().forEach(key -> {
+            System.out.println("key : " + key + ", value : " + map.get(key));
+        });
+
+
+        for(Integer val : map.keySet()){
+            k -= map.get(val);
+            if(k <= 0)
+                break;
+            answer++;
         }
 
         return answer;
