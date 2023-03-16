@@ -14,14 +14,13 @@ public class _6198 {
         int N = Integer.parseInt(br.readLine());
 
         Stack<Integer> stack = new Stack<>();
-
         long sum = 0;
 
         for (int i = 0; i < N; i++) {
             int height = Integer.parseInt(br.readLine());
 
             while(!stack.isEmpty()){
-                if(height > stack.peek()){
+                if(height >= stack.peek()){
                     stack.pop();
                 } else {
                     break;
@@ -30,7 +29,6 @@ public class _6198 {
 
             sum += stack.size();
             stack.push(height);
-
         }
         System.out.print(sum);
     }
