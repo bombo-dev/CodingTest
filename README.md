@@ -4,6 +4,7 @@
 [파이썬 팁](https://psychedelic-bayberry-d51.notion.site/Python-Algorithm-Note-6485e9214ff64048bd6c3b624f5c2976)
 ## 자바
 [자바 팁](https://psychedelic-bayberry-d51.notion.site/Java-Algorithm-Note-95adfa9f01b747fb8e97c533316d8d2e)
+[언어 자세히](https://psychedelic-bayberry-d51.notion.site/Java-2fdf624bfd8b4833acb879ce533e1d04)
 
 # 코딩 테스트 풀이 팁
 
