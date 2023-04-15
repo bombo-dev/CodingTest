@@ -19,8 +19,9 @@ public class _1920 {
         Arrays.sort(arr);
         for(int i = 0; i < M; i++){
             int findValue = Integer.parseInt(st.nextToken());
-            Integer find = binarySearch(arr, findValue);
-            if(find != null) {
+            // Arrays.binarySearch() 에 찾는 값이 없을 경우 들어가야 할 위치에 음수 표시 Zero-base 아님
+            int find = Arrays.binarySearch(arr, findValue);
+            if(find >= 0) {
                 System.out.println(1);
             } else {
                 System.out.println(0);
