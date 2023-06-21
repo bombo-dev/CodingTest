@@ -1,0 +1,39 @@
+
+l	java:S127+"XRefactor the code in order to not assign to this loop counter from within the loop body.(¨…ÄK
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İ¿åıÿÿÿÿ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·â¸Ë
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€ƒéÁúÿÿÿÿ
+f	java:S117""QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õ«›
+f	java:S117A"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰–Î¶
+f	java:S117U"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÌÄû¶
+f	java:S117a"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö›½¾
+f	java:S117h"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(é¨ËÖ
+f	java:S117r"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§İÖÙ
+7
+java:S1643u"Use a StringBuilder instead.(¬ÀéÑúÿÿÿÿ
+{
+java:S1488"`Immediately return this expression instead of assigning it to the temporary variable "first_id".(€ƒéÁúÿÿÿÿ
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ŠÙ±“
+Q
+java:S1854"6Remove this useless assignment to local variable "s4".(İÀ´úÿÿÿÿ
+K
+java:S1854"6Remove this useless assignment to local variable "s3".(æâº
+Q
+java:S1854
+"6Remove this useless assignment to local variable "s2".(­÷ºòùÿÿÿÿ
+Q
+java:S1854	"6Remove this useless assignment to local variable "s1".(¥§æ†üÿÿÿÿ
+B
+java:S1481	"'Remove this unused "s1" local variable.(¥§æ†üÿÿÿÿ
+B
+java:S1481
+"'Remove this unused "s2" local variable.(­÷ºòùÿÿÿÿ
+<
+java:S1481"'Remove this unused "s3" local variable.(æâº
+B
+java:S1481"'Remove this unused "s4" local variable.(İÀ´úÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(šÀ´Èúÿÿÿÿ
+\
+java:S11266"AReplace this if-then-else statement by a single return statement.(Î±ñ‡úÿÿÿÿ
+?
+java:S5413L")Verify that "remove()" is used correctly.(œâî‰

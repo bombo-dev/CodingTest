@@ -49,9 +49,9 @@ public class _18808 {
     }
 
     static int[][] rotate(int[][] sticky) {
-        int preN = sticky.length;
-        int preM = sticky[0].length;
-        int[][] new_sticky = new int[preM][preN];
+        int preN = sticky.length; // 2
+        int preM = sticky[0].length; // 5
+        int[][] new_sticky = new int[preM][preN]; //5, 2
 
         for(int i = 0; i < preN; i++) {
             for(int j = 0; j < preM; j++) {

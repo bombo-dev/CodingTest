@@ -57,7 +57,6 @@ public class Main {
                 if(value.equals("+") || value.equals("-")) {
                     continue;
                 }
-
                 result -= Integer.parseInt(value);
             }
         }

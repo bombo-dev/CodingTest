@@ -2,21 +2,21 @@ package programmers.lv2;
 
 import java.util.*;
 
-class Node implements Comparable<Node> {
+class Node2 implements Comparable<Node2> {
     int index;
     int distance;
 
-    Node(int index, int distance) {
+    Node2(int index, int distance) {
         this.index = index;
         this.distance = distance;
     }
 
-    public int compareTo(Node n) {
+    public int compareTo(Node2 n) {
         return this.distance - n.distance;
     }
 }
 public class _12978 {
-    ArrayList<ArrayList<Node>> list = new ArrayList<>();
+    ArrayList<ArrayList<Node2>> list = new ArrayList<>();
     int[] distanceMap;
 
     public int solution(int N, int[][] road, int K) {
@@ -38,30 +38,30 @@ public class _12978 {
             int end = ro[1];
             int distance = ro[2];
 
-            list.get(start).add(new Node(end, distance));
-            list.get(end).add(new Node(start, distance));
+            list.get(start).add(new Node2(end, distance));
+            list.get(end).add(new Node2(start, distance));
         }
     }
 
 
     void dijkstra(int st) {
-        PriorityQueue<Node> pq = new PriorityQueue<>();
-        pq.offer(new Node(st, 0));
+        PriorityQueue<Node2> pq = new PriorityQueue<>();
+        pq.offer(new Node2(st, 0));
         distanceMap[st] = 0;
 
         while(!pq.isEmpty()) {
-            Node node = pq.poll();
+            Node2 node = pq.poll();
             int index = node.index;
             int distance = node.distance;
 
             if(distanceMap[index] < distance)
                 continue;
 
-            for(Node newNode : list.get(index)) {
+            for(Node2 newNode : list.get(index)) {
                 int cost = distance + newNode.distance;
                 if(distanceMap[newNode.index] > cost) {
                     distanceMap[newNode.index] = cost;
-                    pq.offer(new Node(newNode.index, cost));
+                    pq.offer(new Node2(newNode.index, cost));
                 }
             }
         }

@@ -3,7 +3,7 @@ package baekjoon;
 import java.io.*;
 import java.util.*;
 
-// 더블 포인터, 이분 탐색, 시간 복잡도를 철저하게 계산해야 했던 문제
+// 투 포인터, 이분 탐색, 시간 복잡도를 철저하게 계산해야 했던 문제
 // 중간에서 만나기 라는 기술을 사용 가능 (Meet in the middle)
 public class _2995 {
     static Long[] arr;

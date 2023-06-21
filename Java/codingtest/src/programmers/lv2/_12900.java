@@ -8,6 +8,7 @@ public class _12900 {
         for(int i = 3; i <= n; i++){
             dp[i] = (dp[i - 2] + dp[i - 1]) % 1000000007;
         }
+        System.out.println();
         int answer = dp[n];
         return answer;
     }

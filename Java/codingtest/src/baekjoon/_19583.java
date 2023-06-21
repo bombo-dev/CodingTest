@@ -16,7 +16,7 @@ public class _19583 {
 
         while (true) {
             String value = br.readLine();
-            if (value.equals("")) {
+            if (value == null || value.equals("")) {
                 break;
             }
             String[] arr = value.split(" ");

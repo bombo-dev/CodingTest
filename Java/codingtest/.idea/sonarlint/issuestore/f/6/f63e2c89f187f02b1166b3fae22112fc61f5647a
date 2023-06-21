@@ -1,0 +1,20 @@
+
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ü§öÛ
+W
+java:S2184"BCast one of the operands of this addition operation to a "double".(åÔãk
+P
+java:S1854"5Remove this useless assignment to local variable "r".(¨öÚÍùÿÿÿÿ
+K
+java:S1854"5Remove this useless assignment to local variable "l".(«¼êÓ
+F
+java:S1481"+Remove this unused "answer" local variable.(¹õ¯Íşÿÿÿÿ
+<
+java:S1481"&Remove this unused "l" local variable.(«¼êÓ
+A
+java:S1481"&Remove this unused "r" local variable.(¨öÚÍùÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¤Ğæ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¤Ğæ
+F
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ
+F
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ

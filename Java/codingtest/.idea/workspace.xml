@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6ed074bd-bd72-4786-839d-3d1ddd854b54" name="Changes" comment="programmers : 불량 사용자 [DFS, Set] (https://school.programmers.co.kr/learn/courses/30/lessons/64064)">
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/_1541/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/_1541/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/_18808.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/_18808.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/_19583.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/_19583.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/_2995.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/_2995.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/lv2/_12900.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/lv2/_12900.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/lv2/_12978.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/lv2/_12978.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Part2/Search/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Part2/Search/readme.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1686565889" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/src/study" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="ProjectId" id="2IMsnaaug2rez4zZinFLji9epim" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/munjong-un/Documents/Jongwn/CodingTest/Java/codingtest&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="programmers.lv2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.study._1806.Main">
+    <configuration name="study._16987.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="study._16987.Main" />
+      <module name="codingtest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="study._16987.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="study._1806.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="study._1806.Main" />
+      <module name="codingtest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="study._1806.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="study._2230.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="study._2230.Main" />
+      <module name="codingtest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="study._2230.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="study._2493.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="study._2493.Main" />
+      <module name="codingtest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="study._2493.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="study._6198.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="study._6198.Main" />
+      <module name="codingtest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="study._6198.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.study._1806.Main" />
+        <item itemvalue="Application.study._2230.Main" />
+        <item itemvalue="Application.study._6198.Main" />
+        <item itemvalue="Application.study._2493.Main" />
+        <item itemvalue="Application.study._16987.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ed074bd-bd72-4786-839d-3d1ddd854b54" name="Changes" comment="" />
+      <created>1670002955227</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670002955227</updated>
+      <workItem from="1670002956723" duration="7841000" />
+      <workItem from="1670203656274" duration="5416000" />
+      <workItem from="1670236033809" duration="8120000" />
+      <workItem from="1670393412325" duration="9611000" />
+      <workItem from="1670477756754" duration="23705000" />
+      <workItem from="1670567763745" duration="9000" />
+      <workItem from="1670668699338" duration="37731000" />
+      <workItem from="1671250307882" duration="27484000" />
+      <workItem from="1671494104846" duration="33333000" />
+      <workItem from="1671964745943" duration="15896000" />
+      <workItem from="1672104506750" duration="29311000" />
+      <workItem from="1672385446817" duration="9472000" />
+      <workItem from="1672459858088" duration="4095000" />
+      <workItem from="1672465421960" duration="20992000" />
+      <workItem from="1672735512919" duration="330000" />
+      <workItem from="1672805622469" duration="829000" />
+      <workItem from="1672837288465" duration="4844000" />
+      <workItem from="1672905315143" duration="55126000" />
+      <workItem from="1674280419008" duration="5893000" />
+      <workItem from="1674885941908" duration="8426000" />
+      <workItem from="1675159464281" duration="3146000" />
+      <workItem from="1676180449494" duration="60078000" />
+      <workItem from="1676954913366" duration="41877000" />
+      <workItem from="1677397807106" duration="42726000" />
+      <workItem from="1678245851680" duration="4435000" />
+      <workItem from="1678332745452" duration="154000" />
+      <workItem from="1678370364214" duration="622000" />
+      <workItem from="1678415607761" duration="2468000" />
+      <workItem from="1678520197937" duration="3359000" />
+      <workItem from="1678617309043" duration="2286000" />
+      <workItem from="1678639294760" duration="16960000" />
+      <workItem from="1678847606022" duration="4542000" />
+      <workItem from="1678873385640" duration="13634000" />
+      <workItem from="1679038367732" duration="15253000" />
+      <workItem from="1679217465605" duration="21624000" />
+      <workItem from="1679651496258" duration="1617000" />
+      <workItem from="1679703507123" duration="12395000" />
+      <workItem from="1679884710643" duration="13838000" />
+      <workItem from="1680067536369" duration="99878000" />
+      <workItem from="1681271503521" duration="9755000" />
+      <workItem from="1681377156143" duration="9682000" />
+      <workItem from="1681451464421" duration="13378000" />
+      <workItem from="1681559155020" duration="21495000" />
+      <workItem from="1681738935880" duration="81585000" />
+      <workItem from="1682834336426" duration="18264000" />
+      <workItem from="1683180886371" duration="59000" />
+      <workItem from="1683383831936" duration="3605000" />
+      <workItem from="1683556188703" duration="1193000" />
+      <workItem from="1683717390698" duration="34123000" />
+      <workItem from="1684504837635" duration="1267000" />
+      <workItem from="1684766848965" duration="3674000" />
+      <workItem from="1684988425754" duration="79000" />
+      <workItem from="1685078469180" duration="1284000" />
+      <workItem from="1685186112587" duration="781000" />
+      <workItem from="1685371146227" duration="5101000" />
+      <workItem from="1685714034534" duration="926000" />
+      <workItem from="1685929529442" duration="2289000" />
+      <workItem from="1686098111915" duration="6079000" />
+      <workItem from="1686270835462" duration="11369000" />
+      <workItem from="1686369840666" duration="2179000" />
+      <workItem from="1686459152887" duration="1549000" />
+      <workItem from="1686529835312" duration="16163000" />
+      <workItem from="1686814052640" duration="644000" />
+      <workItem from="1686876439919" duration="22956000" />
+      <workItem from="1687138050567" duration="5574000" />
+      <workItem from="1687225731722" duration="749000" />
+      <workItem from="1687307475971" duration="2655000" />
+    </task>
+    <task id="LOCAL-00244" summary="- programmers : 숫자 변환하기 [BFS, DP]&#10; (https://school.programmers.co.kr/learn/courses/30/lessons/154538)">
+      <created>1682834791009</created>
+      <option name="number" value="00244" />
+      <option name="presentableId" value="LOCAL-00244" />
+      <option name="project" value="LOCAL" />
+      <updated>1682834791009</updated>
+    </task>
+    <task id="LOCAL-00245" summary="- programmers : 소수 찾기 [완전탐색]&#10; (https://school.programmers.co.kr/learn/courses/30/lessons/42839)">
+      <created>1682834884487</created>
+      <option name="number" value="00245" />
+      <option name="presentableId" value="LOCAL-00245" />
+      <option name="project" value="LOCAL" />
+      <updated>1682834884487</updated>
+    </task>
+    <task id="LOCAL-00246" summary="- programmers : 2*n 타일링 [DP]&#10; (https://www.acmicpc.net/problem/11726)">
+      <created>1682834920810</created>
+      <option name="number" value="00246" />
+      <option name="presentableId" value="LOCAL-00246" />
+      <option name="project" value="LOCAL" />
+      <updated>1682834920810</updated>
+    </task>
+    <task id="LOCAL-00247" summary="- programmers : 쿼드압축 후 개수 세기 [재귀]&#10; (https://school.programmers.co.kr/learn/courses/30/lessons/68936)">
+      <created>1682933611160</created>
+      <option name="number" value="00247" />
+      <option name="presentableId" value="LOCAL-00247" />
+      <option name="project" value="LOCAL" />
+      <updated>1682933611160</updated>
+    </task>
+    <task id="LOCAL-00248" summary="- baekjoon : 구간 합 구하기 4 [DP]&#10;(https://www.acmicpc.net/problem/11659)">
+      <created>1682934580911</created>
+      <option name="number" value="00248" />
+      <option name="presentableId" value="LOCAL-00248" />
+      <option name="project" value="LOCAL" />
+      <updated>1682934580912</updated>
+    </task>
+    <task id="LOCAL-00249" summary="- baekjoon : 1로 만들기 2 [DP]&#10;(https://www.acmicpc.net/problem/12852)">
+      <created>1682936821791</created>
+      <option name="number" value="00249" />
+      <option name="presentableId" value="LOCAL-00249" />
+      <option name="project" value="LOCAL" />
+      <updated>1682936821791</updated>
+    </task>
+    <task id="LOCAL-00250" summary="- programmers : 롤 케이크 자르기 [해시]&#10;(https://school.programmers.co.kr/learn/courses/30/lessons/132265)">
+      <created>1683000355680</created>
+      <option name="number" value="00250" />
+      <option name="presentableId" value="LOCAL-00250" />
+      <option name="project" value="LOCAL" />
+      <updated>1683000355680</updated>
+    </task>
+    <task id="LOCAL-00251" summary="- programmers : 삼각 달팽이 [시뮬레이션]&#10;(https://school.programmers.co.kr/learn/courses/30/lessons/68645)">
+      <created>1683007285527</created>
+      <option name="number" value="00251" />
+      <option name="presentableId" value="LOCAL-00251" />
+      <option name="project" value="LOCAL" />
+      <updated>1683007285527</updated>
+    </task>
+    <task id="LOCAL-00252" summary="- programmers : 두 큐 합 같게 만들기 [큐, 구현]&#10;(https://school.programmers.co.kr/learn/courses/30/lessons/118667)">
+      <created>1683008917935</created>
+      <option name="number" value="00252" />
+      <option name="presentableId" value="LOCAL-00252" />
+      <option name="project" value="LOCAL" />
+      <updated>1683008917935</updated>
+    </task>
+    <task id="LOCAL-00253" summary="- baekjoon : 프린터 큐 [큐, 우선순위 큐]&#10;(https://www.acmicpc.net/problem/1966)">
+      <created>1683125100928</created>
+      <option name="number" value="00253" />
+      <option name="presentableId" value="LOCAL-00253" />
+      <option name="project" value="LOCAL" />
+      <updated>1683125100928</updated>
+    </task>
+    <task id="LOCAL-00254" summary="- programmers : 메뉴 리뉴얼 [해시, 정렬, 카카오 기출]&#10;(https://school.programmers.co.kr/learn/courses/30/lessons/72411)">
+      <created>1683383911391</created>
+      <option name="number" value="00254" />
+      <option name="presentableId" value="LOCAL-00254" />
+      <option name="project" value="LOCAL" />
+      <updated>1683383911392</updated>
+    </task>
+    <task id="LOCAL-00255" summary="- programmers : 단어 변환 [DFS, BFS]&#10;(https://school.programmers.co.kr/learn/courses/30/lessons/43163)">
+      <created>1683388002070</created>
+      <option name="number" value="00255" />
+      <option name="presentableId" value="LOCAL-00255" />
+      <option name="project" value="LOCAL" />
+      <updated>1683388002070</updated>
+    </task>
+    <task id="LOCAL-00256" summary="- programmers : 방금그곡 [시뮬레이션, 해시, 정렬]&#10;(https://school.programmers.co.kr/learn/courses/30/lessons/17683)">
+      <created>1683436686332</created>
+      <option name="number" value="00256" />
+      <option name="presentableId" value="LOCAL-00256" />
+      <option name="project" value="LOCAL" />
+      <updated>1683436686332</updated>
+    </task>
+    <task id="LOCAL-00257" summary="- baekjoon : 나는야 포켓몬 마스터 이다솜 [해시]&#10;(https://www.acmicpc.net/problem/1620)">
+      <created>1683553222530</created>
+      <option name="number" value="00257" />
+      <option name="presentableId" value="LOCAL-00257" />
+      <option name="project" value="LOCAL" />
+      <updated>1683553222530</updated>
+    </task>
+    <task id="LOCAL-00258" summary="- baekjoon : 최대 힙 [힙]&#10;(https://www.acmicpc.net/problem/11279)">
+      <created>1683717810391</created>
+      <option name="number" value="00258" />
+      <option name="presentableId" value="LOCAL-00258" />
+      <option name="project" value="LOCAL" />
+      <updated>1683717810392</updated>
+    </task>
+    <task id="LOCAL-00259" summary="- baekjoon : ATM [우선순위 큐]&#10;(https://www.acmicpc.net/problem/11399)">
+      <created>1683718454464</created>
+      <option name="number" value="00259" />
+      <option name="presentableId" value="LOCAL-00259" />
+      <option name="project" value="LOCAL" />
+      <updated>1683718454464</updated>
+    </task>
+    <task id="LOCAL-00260" summary="- baekjoon : 집합 [Set]&#10;(https://www.acmicpc.net/problem/11723)">
+      <created>1683719236877</created>
+      <option name="number" value="00260" />
+      <option name="presentableId" value="LOCAL-00260" />
+      <option name="project" value="LOCAL" />
+      <updated>1683719236877</updated>
+    </task>
+    <task id="LOCAL-00261" summary="- baekjoon : 연결요소의 개수 [BFS]&#10;(https://www.acmicpc.net/problem/11724)">
+      <created>1683719762120</created>
+      <option name="number" value="00261" />
+      <option name="presentableId" value="LOCAL-00261" />
+      <option name="project" value="LOCAL" />
+      <updated>1683719762120</updated>
+    </task>
+    <task id="LOCAL-00262" summary="- baekjoon : 팩토리얼 0의 개수 [수학]&#10;(https://www.acmicpc.net/problem/1676)">
+      <created>1683805704741</created>
+      <option name="number" value="00262" />
+      <option name="presentableId" value="LOCAL-00262" />
+      <option name="project" value="LOCAL" />
+      <updated>1683805704741</updated>
+    </task>
+    <task id="LOCAL-00263" summary="- baekjoon : 동전 0 [그리디]&#10;(https://www.acmicpc.net/problem/11047)">
+      <created>1683807149842</created>
+      <option name="number" value="00263" />
+      <option name="presentableId" value="LOCAL-00263" />
+      <option name="project" value="LOCAL" />
+      <updated>1683807149842</updated>
+    </task>
+    <task id="LOCAL-00264" summary="- baekjoon : 비밀번호 찾기 [해시]&#10;(https://www.acmicpc.net/problem/17219)">
+      <created>1683807563397</created>
+      <option name="number" value="00264" />
+      <option name="presentableId" value="LOCAL-00264" />
+      <option name="project" value="LOCAL" />
+      <updated>1683807563397</updated>
+    </task>
+    <task id="LOCAL-00265" summary="- baekjoon : 패션왕 신해빈 [수학]&#10;(https://www.acmicpc.net/problem/9375)">
+      <created>1683864312023</created>
+      <option name="number" value="00265" />
+      <option name="presentableId" value="LOCAL-00265" />
+      <option name="project" value="LOCAL" />
+      <updated>1683864312023</updated>
+    </task>
+    <task id="LOCAL-00266" summary="- baekjoon : 파도반 수열 [DP]&#10;(https://www.acmicpc.net/problem/9461)">
+      <created>1683893572737</created>
+      <option name="number" value="00266" />
+      <option name="presentableId" value="LOCAL-00266" />
+      <option name="project" value="LOCAL" />
+      <updated>1683893572737</updated>
+    </task>
+    <task id="LOCAL-00267" summary="- baekjoon : 2 x N 타일링2 [DP]&#10;(https://www.acmicpc.net/problem/11727)">
+      <created>1683894384923</created>
+      <option name="number" value="00267" />
+      <option name="presentableId" value="LOCAL-00267" />
+      <option name="project" value="LOCAL" />
+      <updated>1683894384923</updated>
+    </task>
+    <task id="LOCAL-00268" summary="- baekjoon : Four Squares [DP]&#10;(https://www.acmicpc.net/problem/17626)">
+      <created>1683970889463</created>
+      <option name="number" value="00268" />
+      <option name="presentableId" value="LOCAL-00268" />
+      <option name="project" value="LOCAL" />
+      <updated>1683970889463</updated>
+    </task>
+    <task id="LOCAL-00269" summary="- baekjoon : 잃어버린 괄호 [문자열, 그리디]&#10;(https://www.acmicpc.net/problem/1541)">
+      <created>1683976104612</created>
+      <option name="number" value="00269" />
+      <option name="presentableId" value="LOCAL-00269" />
+      <option name="project" value="LOCAL" />
+      <updated>1683976104612</updated>
+    </task>
+    <task id="LOCAL-00270" summary="- baekjoon : IOIOI [파싱, 그리디]&#10;(https://www.acmicpc.net/problem/5525)">
+      <created>1684063233689</created>
+      <option name="number" value="00270" />
+      <option name="presentableId" value="LOCAL-00270" />
+      <option name="project" value="LOCAL" />
+      <updated>1684063233689</updated>
+    </task>
+    <task id="LOCAL-00271" summary="- baekjoon : 경로찾기 [BFS, 플로이드 워셜]&#10;(https://www.acmicpc.net/problem/11403)">
+      <created>1684066728571</created>
+      <option name="number" value="00271" />
+      <option name="presentableId" value="LOCAL-00271" />
+      <option name="project" value="LOCAL" />
+      <updated>1684066728571</updated>
+    </task>
+    <task id="LOCAL-00272" summary="- programmers : 추억 점수 [해시]&#10;(https://school.programmers.co.kr/learn/courses/30/lessons/176963)">
+      <created>1684160383382</created>
+      <option name="number" value="00272" />
+      <option name="presentableId" value="LOCAL-00272" />
+      <option name="project" value="LOCAL" />
+      <updated>1684160383382</updated>
+    </task>
+    <task id="LOCAL-00273" summary="- programmers : 택배 상자 [스택, 큐]&#10;(https://school.programmers.co.kr/learn/courses/30/lessons/131704)">
+      <created>1684507107276</created>
+      <option name="number" value="00273" />
+      <option name="presentableId" value="LOCAL-00273" />
+      <option name="project" value="LOCAL" />
+      <updated>1684507107277</updated>
+    </task>
+    <task id="LOCAL-00274" summary="- programmers : 무인도 여행 [bfs]&#10;(https://school.programmers.co.kr/learn/courses/30/lessons/154540)">
+      <created>1684767191661</created>
+      <option name="number" value="00274" />
+      <option name="presentableId" value="LOCAL-00274" />
+      <option name="project" value="LOCAL" />
+      <updated>1684767191662</updated>
+    </task>
+    <task id="LOCAL-00275" summary="- programmers : 행렬 테두리 회전하기 [시뮬레이션]&#10;(https://school.programmers.co.kr/learn/courses/30/lessons/77485)">
+      <created>1684853615741</created>
+      <option name="number" value="00275" />
+      <option name="presentableId" value="LOCAL-00275" />
+      <option name="project" value="LOCAL" />
+      <updated>1684853615741</updated>
+    </task>
+    <task id="LOCAL-00276" summary="- programmers : 괄호 변환 [문자열, 시뮬레이션, 카카오 기출]&#10;(https://school.programmers.co.kr/learn/courses/30/lessons/60058)">
+      <created>1684933799865</created>
+      <option name="number" value="00276" />
+      <option name="presentableId" value="LOCAL-00276" />
+      <option name="project" value="LOCAL" />
+      <updated>1684933799865</updated>
+    </task>
+    <task id="LOCAL-00277" summary="- programmers : 디스크 컨트롤러 [우선순위 큐]&#10;(https://school.programmers.co.kr/learn/courses/30/lessons/42627)">
+      <created>1684988497968</created>
+      <option name="number" value="00277" />
+      <option name="presentableId" value="LOCAL-00277" />
+      <option name="project" value="LOCAL" />
+      <updated>1684988497968</updated>
+    </task>
+    <task id="LOCAL-00278" summary="- programmers : 전력망을 둘로 나누기 [완전탐색]&#10;(https://school.programmers.co.kr/learn/courses/30/lessons/86971)">
+      <created>1685078637355</created>
+      <option name="number" value="00278" />
+      <option name="presentableId" value="LOCAL-00278" />
+      <option name="project" value="LOCAL" />
+      <updated>1685078637355</updated>
+    </task>
+    <task id="LOCAL-00279" summary="- programmers : 수식 최대화 [시뮬레이션, 카카오 기출]&#10;(https://school.programmers.co.kr/learn/courses/30/lessons/67257)">
+      <created>1685186297085</created>
+      <option name="number" value="00279" />
+      <option name="presentableId" value="LOCAL-00279" />
+      <option name="project" value="LOCAL" />
+      <updated>1685186297085</updated>
+    </task>
+    <task id="LOCAL-00280" summary="- programmers : 배달 [최단거리 다익스트라]&#10;(https://school.programmers.co.kr/learn/courses/30/lessons/12978)">
+      <created>1685371781476</created>
+      <option name="number" value="00280" />
+      <option name="presentableId" value="LOCAL-00280" />
+      <option name="project" value="LOCAL" />
+      <updated>1685371781476</updated>
+    </task>
+    <task id="LOCAL-00281" summary="- programmers : 거리두기 확인하기 [dfs, bfs, 카카오기출]&#10;(https://school.programmers.co.kr/learn/courses/30/lessons/81302)">
+      <created>1685427158317</created>
+      <option name="number" value="00281" />
+      <option name="presentableId" value="LOCAL-00281" />
+      <option name="project" value="LOCAL" />
+      <updated>1685427158318</updated>
+    </task>
+    <task id="LOCAL-00282" summary="- programmers : 후보키 [dfs, 카카오기출]&#10;(https://school.programmers.co.kr/learn/courses/30/lessons/42890)">
+      <created>1685545002486</created>
+      <option name="number" value="00282" />
+      <option name="presentableId" value="LOCAL-00282" />
+      <option name="project" value="LOCAL" />
+      <updated>1685545002486</updated>
+    </task>
+    <task id="LOCAL-00283" summary="- programmers : 줄 서는 방법 [dp]&#10;(https://school.programmers.co.kr/learn/courses/30/lessons/12936)">
+      <created>1685760666902</created>
+      <option name="number" value="00283" />
+      <option name="presentableId" value="LOCAL-00283" />
+      <option name="project" value="LOCAL" />
+      <updated>1685760666902</updated>
+    </task>
+    <task id="LOCAL-00284" summary="- baekjoon : 상어 초등학교 [시뮬레이션]&#10;(https://www.acmicpc.net/problem/21608)">
+      <created>1686369933922</created>
+      <option name="number" value="00284" />
+      <option name="presentableId" value="LOCAL-00284" />
+      <option name="project" value="LOCAL" />
+      <updated>1686369933922</updated>
+    </task>
+    <task id="LOCAL-00285" summary="- programmers : 호텔 대실 [우선순위 큐]&#10;(https://school.programmers.co.kr/learn/courses/30/lessons/155651)">
+      <created>1686378514729</created>
+      <option name="number" value="00285" />
+      <option name="presentableId" value="LOCAL-00285" />
+      <option name="project" value="LOCAL" />
+      <updated>1686378514729</updated>
+    </task>
+    <task id="LOCAL-00286" summary="- programmers : 마법의 엘리베이터 [bfs, 구현]&#10;(https://school.programmers.co.kr/learn/courses/30/lessons/148653)">
+      <created>1686469805321</created>
+      <option name="number" value="00286" />
+      <option name="presentableId" value="LOCAL-00286" />
+      <option name="project" value="LOCAL" />
+      <updated>1686469805321</updated>
+    </task>
+    <task id="LOCAL-00287" summary="2023.06.12 알고리즘 스터디 Greedy">
+      <created>1686565449808</created>
+      <option name="number" value="00287" />
+      <option name="presentableId" value="LOCAL-00287" />
+      <option name="project" value="LOCAL" />
+      <updated>1686565449808</updated>
+    </task>
+    <task id="LOCAL-00288" summary="2023.06.16 알고리즘 스터디 BackTracking">
+      <created>1686899748025</created>
+      <option name="number" value="00288" />
+      <option name="presentableId" value="LOCAL-00288" />
+      <option name="project" value="LOCAL" />
+      <updated>1686899748025</updated>
+    </task>
+    <task id="LOCAL-00289" summary="2023.06.19 알고리즘 스터디 Stack">
+      <created>1687148619862</created>
+      <option name="number" value="00289" />
+      <option name="presentableId" value="LOCAL-00289" />
+      <option name="project" value="LOCAL" />
+      <updated>1687148619862</updated>
+    </task>
+    <task id="LOCAL-00290" summary="programmers : 불량 사용자 [DFS] (https://school.programmers.co.kr/learn/courses/30/lessons/64064)">
+      <created>1687225937649</created>
+      <option name="number" value="00290" />
+      <option name="presentableId" value="LOCAL-00290" />
+      <option name="project" value="LOCAL" />
+      <updated>1687225937649</updated>
+    </task>
+    <task id="LOCAL-00291" summary="programmers : 가장 큰 정사각형 찾기 [DP] (https://school.programmers.co.kr/learn/courses/30/lessons/12905)">
+      <created>1687226002774</created>
+      <option name="number" value="00291" />
+      <option name="presentableId" value="LOCAL-00291" />
+      <option name="project" value="LOCAL" />
+      <updated>1687226002774</updated>
+    </task>
+    <task id="LOCAL-00292" summary="programmers : 불량 사용자 [DFS, Set] (https://school.programmers.co.kr/learn/courses/30/lessons/64064)">
+      <created>1687226022552</created>
+      <option name="number" value="00292" />
+      <option name="presentableId" value="LOCAL-00292" />
+      <option name="project" value="LOCAL" />
+      <updated>1687226022552</updated>
+    </task>
+    <option name="localTasksCounter" value="293" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/src/study" />
+    </ignored-roots>
+    <MESSAGE value="- baekjoon : Four Squares [DP]&#10;(https://www.acmicpc.net/problem/17626)" />
+    <MESSAGE value="- baekjoon : 잃어버린 괄호 [문자열, 그리디]&#10;(https://www.acmicpc.net/problem/1541)" />
+    <MESSAGE value="- baekjoon : IOIOI [파싱, 그리디]&#10;(https://www.acmicpc.net/problem/5525)" />
+    <MESSAGE value="- baekjoon : 경로찾기 [BFS, 플로이드 워셜]&#10;(https://www.acmicpc.net/problem/11403)" />
+    <MESSAGE value="- programmers : 추억 점수 [해시]&#10;(https://school.programmers.co.kr/learn/courses/30/lessons/176963)" />
+    <MESSAGE value="- programmers : 택배 상자 [스택, 큐]&#10;(https://school.programmers.co.kr/learn/courses/30/lessons/131704)" />
+    <MESSAGE value="- programmers : 무인도 여행 [bfs]&#10;(https://school.programmers.co.kr/learn/courses/30/lessons/154540)" />
+    <MESSAGE value="- programmers : 행렬 테두리 회전하기 [시뮬레이션]&#10;(https://school.programmers.co.kr/learn/courses/30/lessons/77485)" />
+    <MESSAGE value="- programmers : 괄호 변환 [문자열, 시뮬레이션, 카카오 기출]&#10;(https://school.programmers.co.kr/learn/courses/30/lessons/60058)" />
+    <MESSAGE value="- programmers : 디스크 컨트롤러 [우선순위 큐]&#10;(https://school.programmers.co.kr/learn/courses/30/lessons/42627)" />
+    <MESSAGE value="- programmers : 전력망을 둘로 나누기 [완전탐색]&#10;(https://school.programmers.co.kr/learn/courses/30/lessons/86971)" />
+    <MESSAGE value="- programmers : 수식 최대화 [시뮬레이션, 카카오 기출]&#10;(https://school.programmers.co.kr/learn/courses/30/lessons/67257)" />
+    <MESSAGE value="- programmers : 배달 [최단거리 다익스트라]&#10;(https://school.programmers.co.kr/learn/courses/30/lessons/12978)" />
+    <MESSAGE value="- programmers : 거리두기 확인하기 [dfs, bfs, 카카오기출]&#10;(https://school.programmers.co.kr/learn/courses/30/lessons/81302)" />
+    <MESSAGE value="- programmers : 후보키 [dfs, 카카오기출]&#10;(https://school.programmers.co.kr/learn/courses/30/lessons/42890)" />
+    <MESSAGE value="- programmers : 줄 서는 방법 [dp]&#10;(https://school.programmers.co.kr/learn/courses/30/lessons/12936)" />
+    <MESSAGE value="- baekjoon : 상어 초등학교 [시뮬레이션]&#10;(https://www.acmicpc.net/problem/21608)" />
+    <MESSAGE value="- programmers : 호텔 대실 [우선순위 큐]&#10;(https://school.programmers.co.kr/learn/courses/30/lessons/155651)" />
+    <MESSAGE value="- programmers : 마법의 엘리베이터 [bfs, 구현]&#10;(https://school.programmers.co.kr/learn/courses/30/lessons/148653)" />
+    <MESSAGE value="2023.06.12 알고리즘 스터디 Greedy" />
+    <MESSAGE value="2023.06.16 알고리즘 스터디 BackTracking" />
+    <MESSAGE value="2023.06.19 알고리즘 스터디 Stack" />
+    <MESSAGE value="programmers : 불량 사용자 [DFS] (https://school.programmers.co.kr/learn/courses/30/lessons/64064)" />
+    <MESSAGE value="programmers : 가장 큰 정사각형 찾기 [DP] (https://school.programmers.co.kr/learn/courses/30/lessons/12905)" />
+    <MESSAGE value="programmers : 불량 사용자 [DFS, Set] (https://school.programmers.co.kr/learn/courses/30/lessons/64064)" />
+    <option name="LAST_COMMIT_MESSAGE" value="programmers : 불량 사용자 [DFS, Set] (https://school.programmers.co.kr/learn/courses/30/lessons/64064)" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/study/_1806/Main.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
